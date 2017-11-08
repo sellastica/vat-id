@@ -1,0 +1,24 @@
+{
+    "name": "sellastica/vat-id",
+	"type": "project",
+    "description": "Vat ID validator",
+	"homepage": "https://github.com/sellastica/vat-id",
+    "keywords": ["vat ID", "validator"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Tomáš Krejčí",
+            "email": "tomas@differencemakers.cz"
+        }
+    ],
+    "require": {
+		"php": ">=7.1"
+    },
+	"require-dev": {
+    },
+	"autoload": {
+        "psr-4": {
+            "Sellastica\\VatId\\": "src/"
+        }
+    }
+}
